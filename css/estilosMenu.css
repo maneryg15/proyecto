@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+} 
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+/*-------Estilos de Info------*/
+ .info{
+    background: #fff;
+    color: #000;
+    text-align: justify;
+    margin-top: -50px; 
+    
+}
+ .info__img{
+    border-radius: 50%;
+    border: 6px solid #e49ba4; 
+     position: relative;
+     
+    
+}
+.info__txt{
+    text-align: justify;
+    padding: 15px;
+}
+
+
+/*---------- Estilos del  Mapa----------*/
+.mapa {
+    padding: 15px ;
+    background:  #f4e9af;
+    text-align: center;
+}
+.mapa h3{
+    font-size: 25px;
+}
+.mapa p{
+    text-align: justify;
+	
+}
+/*--------Estilos del footer--------*/
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.footer img{
+    width: 50px;
+  
+    margin-right: 10px;
+
+}
+/*--------Estilos Responsive--------*/
+@media(min-width:480px){
+    .main img{
+    max-width: 90%;
+}
+    
+    
+    .info__columna{
+        width: 60%;
+    }
+     .info .contenedor{
+    display: flex;
+    justify-content: space-around;
+		 
+    }
+    
+   
+
+
+}
+@media(min-width:1280px){
+    .contenedor{
+        width: 1200px;
+    }
+    
+	
+	
+}
+
+  
+ 
